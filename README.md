@@ -8,7 +8,7 @@
 `docker run -d -p 5432:5432 postgres16-alpine`  
 Для проверки юзера и БД было использовано следующее:  
 `docker exec -it <container_id> psql -U test`, где <container_id> - id контейнера  
-<img src="/img/db_full.jpg" alt="list_of_db" style="height: 300px; width:150px;"/>  
+<img src="/img/db_full.jpg" alt="list_of_db"/>  
 `SELECT datname FROM pg_database WHERE datistemplate = false;` для пользовательских БД  
-<img src="/img/db_user.jpg" alt="list_of_db_user" style="height: 300px; width:150px;"/>  
-<img src="/img/user.jpg" alt="user" style="height: 300px; width:150px;"/>  
+<img src="/img/db_user.jpg" alt="list_of_db_user"/>  
+<img src="/img/user.jpg" alt="user"/>  
